@@ -3,7 +3,7 @@ FROM registry.redhat.io/openshift-gitops-1/argocd-rhel8:v1.1.2
 # Switch to root for the ability to perform install
 USER root
 
-ARG KUSTOMIZE_VERSION=v4.1.3
+ARG KUSTOMIZE_VERSION=v4.2.0
 
 # Install tools needed for your repo-server to retrieve & decrypt secrets, render manifests
 # (e.g. curl, awscli, gpg, sops)
